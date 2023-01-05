@@ -1,0 +1,8 @@
+sudo socat -d  -d  PTY,link=/dev/ttyS10,mode=777   PTY,link=/dev/ttyS11,mode=777
+
+Emissor:ttyS10
+Recetor:ttyS11
+
+sudo socat -d  -d  PTY,link=/dev/ttyS4,mode=777   PTY,link=/dev/ttyS0,mode=777
+Emissor_aula:ttyS4
+Recetor_aula:ttyS0
